@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Python_Fundamentals</string>
+    <string-array name="Programming_Paradigms">
+        <item>Structured Paradigm</item>
+        <item>Procedural Paradigm</item>
+        <item>Object-Oriented Paradigm</item>
+        <item>Event Driven Paradigm</item>
+        <item>Declarative Paradigm</item>
+        <item>Imperative Paradigm</item>
+        <item>Parallel Paradigm</item>
+        <item>Concurrent Paradigm</item>
+        <item>Functional Paradigm</item>
+        <item>Logic Paradigm</item>
+        <item>Dependent Paradigm</item>
+        <item>Network Paradigm</item>
+        <item>Symbolic Paradigm</item>
+        <item>Automata Paradigm</item>
+        <item>GUI Paradigm</item>
+    </string-array>
+    <string-array name="description">
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+    </string-array>
+
+
+</resources>
