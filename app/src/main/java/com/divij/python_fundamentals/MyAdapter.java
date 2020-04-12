@@ -33,13 +33,15 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     }
 
     @Override
-    public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull MyViewHolder holder, final int position) {
         holder.myText1.setText(data1[position]);
-        holder.myText2.setText(data2[position]);
+        //holder.myText2.setText(data2[position]);
         holder.mainLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(context,SecondActivity.class);
+                intent.putExtra("data1",data1[position]);
+                intent.putExtra("data2",data2[position]);
                 context.startActivity(intent);
             }
         });
@@ -60,8 +62,9 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
             myText1=itemView.findViewById(R.id.myText1);
-            myText2=itemView.findViewById(R.id.myText2);
+            //myText2=itemView.findViewById(R.id.myText2);
             mainLayout=itemView.findViewById(R.id.mainLayout);
+
             //myText1=itemView.findViewById(R.id.myText1);
 
 
